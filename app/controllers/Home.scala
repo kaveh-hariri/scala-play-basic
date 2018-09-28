@@ -36,7 +36,17 @@ class Home extends Controller{
       , "shape" -> o.shape
       , "duration" -> o.duration
       , "duration_text" -> o.duration_text
-      ,
+      , "description" -> o.description
+      , "reported_on" -> o.reported_on
+      , "latitude" -> o.latitude
+      , "longitude" -> o.longitude
+      , "distance" -> o.distance
+    )
+  }
+
+  implicit val clostestWrites = new Writes[models.closest]{
+    override def writes(o: models.closest) = Json.obj(
+      "sightings" -> o.sightings
     )
   }
 
@@ -54,6 +64,13 @@ class Home extends Controller{
       }
       case "topcity" => {
         Try(utilities.Data.topCity(params))
+        match {
+          case Success(s) => Future(Ok(Json.toJson(s)))
+          case Failure(f) =>   Future(BadRequest(Json.obj("status" -> "Bad Request", "message" -> f.getMessage)))
+        }
+      }
+      case "closestloc" => {
+        Try(utilities.Data.closestLocs(params))
         match {
           case Success(s) => Future(Ok(Json.toJson(s)))
           case Failure(f) =>   Future(BadRequest(Json.obj("status" -> "Bad Request", "message" -> f.getMessage)))
