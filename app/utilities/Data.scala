@@ -7,6 +7,7 @@ import play.api.Play.current
 
 import scala.util.{Failure, Success, Try}
 import scala.reflect.runtime.universe
+
 object Data {
 
   //make data available
@@ -124,36 +125,35 @@ object Data {
 
   def closestLocs(params: Map[String, String]): models.closest = {
 
-    val quantity: Int = Try (params.getOrElse ("quantity", "").toInt)
+    val quantity: Int = Try(params.getOrElse("quantity", "").toInt)
     match {
-    case Success (s) => s
-    case Failure (f) => - 1
-  }
-    val lon1 = Try (params.getOrElse ("longitude", "").toDouble)
-    match {
-      case Success (s) => s
-      case Failure (f) => 10000
+      case Success(s) => s
+      case Failure(f) => -1
     }
-    val lat1 = Try (params.getOrElse ("latitude", "").toDouble)
+    val lon1 = Try(params.getOrElse("longitude", "").toDouble)
     match {
-      case Success (s) => s
-      case Failure (f) => 10000
+      case Success(s) => s
+      case Failure(f) => 10000
+    }
+    val lat1 = Try(params.getOrElse("latitude", "").toDouble)
+    match {
+      case Success(s) => s
+      case Failure(f) => 10000
     }
 
-    if (quantity == - 1 || lon1 == 10000 || lat1 == 10000 ) {
-    throw new IllegalStateException ("Exception: proper quantity/longitude/latitude not provided")
-  }
-       val a: List[(DataRow,Float)] = data.map(rei => {
+    if (quantity == -1 || lon1 == 10000 || lat1 == 10000) {
+      throw new IllegalStateException("Exception: proper quantity/longitude/latitude not provided")
+    }
+    val a: List[(DataRow, Float)] = data.map(rei => {
+      rei -> List(rei.as[Double]("latitude"), rei.as[Double]("longitude"))
+    })
+      .map((z: (DataRow, List[Double])) => z._1 -> HaversineSecond.distance(lat1, lon1, z._2(0), z._2(1))).toList
+      .sortBy(s => s._2).take(quantity)
 
-         rei -> List(rei.as[Double]("latitude"),rei.as[Double]("longitude"))
-       })
-         .map((z: (DataRow,List[Double])) => z._1 -> HaversineSecond.distance(lat1,lon1,z._2(0),z._2(1))).toList
-           .sortBy(s => s._2).take(quantity)
-
-       val fin = a.map(rei => models.sightings(Option(rei._1.as[Int](0)),Option(rei._1.as[String](1)),Option(rei._1.as[String](2))
-         ,Option(rei._1.as[String](3)),Option(rei._1.as[String](4)),Option(rei._1.as[String](5)),Option(rei._1.as[Double](6))
-           ,Option(rei._1.as[String](7)),Option(rei._1.as[String](8)),Option(rei._1.as[String](9)),Option(rei._1.as[Double](10))
-           ,Option(rei._1.as[Double](11)),Option(rei._2)))
+    val fin = a.map(rei => models.sightings(Option(rei._1.as[Int](0)), Option(rei._1.as[String](1)), Option(rei._1.as[String](2))
+      , Option(rei._1.as[String](3)), Option(rei._1.as[String](4)), Option(rei._1.as[String](5)), Option(rei._1.as[Double](6))
+      , Option(rei._1.as[String](7)), Option(rei._1.as[String](8)), Option(rei._1.as[String](9)), Option(rei._1.as[Double](10))
+      , Option(rei._1.as[Double](11)), Option(rei._2)))
 
     models.closest(fin)
   }
