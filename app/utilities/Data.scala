@@ -144,6 +144,8 @@ object Data {
     if (quantity == -1 || lon1 == 10000 || lat1 == 10000) {
       throw new IllegalStateException("Exception: proper quantity/longitude/latitude not provided")
     }
+    //Possible performance improvements -- distinct list of lon/lat, and possibly round lon/lat to int and take the distinct.  Not needed
+
     val a: List[(DataRow, Float)] = data.map(rei => {
       rei -> List(rei.as[Double]("latitude"), rei.as[Double]("longitude"))
     })
