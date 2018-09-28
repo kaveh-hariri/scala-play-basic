@@ -7,15 +7,15 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20180926170602"/>
+		date="20180928035951"/>
 	<dependencies>
 		<module organisation="com.github.martincooper" name="scala-datatable_2.11">
-			<revision name="0.7.0" status="release" pubdate="20150104043839" resolver="public" artresolver="public" homepage="http://github.com/martincooper/scala-datatable" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="215">
+			<revision name="0.7.0" status="release" pubdate="20150104043839" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/martincooper/scala-datatable" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="215">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1899" time="129" location="/home/khariri/.ivy2/cache/com.github.martincooper/scala-datatable_2.11/ivy-0.7.0.xml" searched="true" original-local-location="/home/khariri/.ivy2/cache/com.github.martincooper/scala-datatable_2.11/ivy-0.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/martincooper/scala-datatable_2.11/0.7.0/scala-datatable_2.11-0.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="2982" time="0" location="/home/khariri/.ivy2/cache/com.github.martincooper/scala-datatable_2.11/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/martincooper/scala-datatable_2.11/0.7.0/scala-datatable_2.11-0.7.0.pom"/>
 				<caller organisation="org.khariri" name="scala-play-basic_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-datatable_2.11" type="jar" ext="jar" status="successful" details="" size="233061" time="187" location="/home/khariri/.ivy2/cache/com.github.martincooper/scala-datatable_2.11/jars/scala-datatable_2.11-0.7.0.jar">
+					<artifact name="scala-datatable_2.11" type="jar" ext="jar" status="no" details="" size="233061" time="0" location="/home/khariri/.ivy2/cache/com.github.martincooper/scala-datatable_2.11/jars/scala-datatable_2.11-0.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/martincooper/scala-datatable_2.11/0.7.0/scala-datatable_2.11-0.7.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -456,9 +456,9 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.hbase" name="hbase-client">
-			<revision name="1.1.1" status="release" pubdate="20150623145718" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="156">
+			<revision name="1.1.1" status="release" pubdate="20150623215718" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="156">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="12082" time="32" location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-client/ivy-1.1.1.xml" searched="true" original-local-location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-client/ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.pom"/>
+				<metadata-artifact status="successful" details="" size="12082" time="26" location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-client/ivy-1.1.1.xml" searched="true" original-local-location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-client/ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.pom"/>
 				<caller organisation="org.apache.hive" name="hive-metastore" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.0.0"/>
 				<artifacts>
 					<artifact name="hbase-client" type="jar" ext="jar" status="no" details="" size="1246068" time="0" location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-client/jars/hbase-client-1.1.1.jar">
@@ -515,9 +515,9 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.hbase" name="hbase-protocol">
-			<revision name="1.1.1" status="release" pubdate="20150623145623" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="161">
+			<revision name="1.1.1" status="release" pubdate="20150623215623" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="161">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="8223" time="17" location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-protocol/ivy-1.1.1.xml" searched="true" original-local-location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-protocol/ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.1.1/hbase-protocol-1.1.1.pom"/>
+				<metadata-artifact status="successful" details="" size="8223" time="26" location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-protocol/ivy-1.1.1.xml" searched="true" original-local-location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-protocol/ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.1.1/hbase-protocol-1.1.1.pom"/>
 				<caller organisation="org.apache.hbase" name="hbase-client" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.1.1"/>
 				<artifacts>
 					<artifact name="hbase-protocol" type="jar" ext="jar" status="no" details="" size="4201653" time="0" location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-protocol/jars/hbase-protocol-1.1.1.jar">
@@ -611,9 +611,9 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.hbase" name="hbase-annotations">
-			<revision name="1.1.1" status="release" pubdate="20150623145036" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="157">
+			<revision name="1.1.1" status="release" pubdate="20150623215036" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="157">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1705" time="15" location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-annotations/ivy-1.1.1.xml" searched="true" original-local-location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-annotations/ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-annotations/1.1.1/hbase-annotations-1.1.1.pom"/>
+				<metadata-artifact status="successful" details="" size="1705" time="16" location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-annotations/ivy-1.1.1.xml" searched="true" original-local-location="/home/khariri/.ivy2/cache/org.apache.hbase/hbase-annotations/ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-annotations/1.1.1/hbase-annotations-1.1.1.pom"/>
 				<caller organisation="org.apache.hbase" name="hbase-client" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.1.1"/>
 				<caller organisation="org.apache.hbase" name="hbase-protocol" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.1.1"/>
 				<artifacts>
