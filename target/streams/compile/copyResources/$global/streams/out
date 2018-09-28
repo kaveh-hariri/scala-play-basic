@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/opt/git/scala-play-basic/conf/routes,/opt/git/scala-play-basic/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/opt/git/scala-play-basic/conf/application.conf,/opt/git/scala-play-basic/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/opt/git/scala-play-basic/conf/ufo-sightings.csv,/opt/git/scala-play-basic/target/scala-2.11/classes/ufo-sightings.csv)[0m
