@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/opt/git/scala-play-basic/conf/routes
-// @DATE:Fri Sep 28 03:59:52 GMT 2018
+// @DATE:Wed Oct 03 00:17:45 GMT 2018
 
 package controllers;
 

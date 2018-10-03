@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for org.khariri#scala-play-basic_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30d3affe[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dcfaacb[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
@@ -3288,7 +3288,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.1.1/hbase-client-1.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-client;1.1.1!hbase-client.pom(pom.original) (26ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-client;1.1.1!hbase-client.pom(pom.original) (46ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hbase#hbase;1.1.1 {}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1 ...[0m
@@ -3302,7 +3302,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase/1.1.1/hbase-1.1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase/1.1.1/hbase-1.1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hbase/hbase/1.1.1/hbase-1.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase;1.1.1!hbase.pom(pom.original) (54ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase;1.1.1!hbase.pom(pom.original) (48ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache#apache;12 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;12 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;12[0m
@@ -3316,9 +3316,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hbase#hbase-client;1.1.1->org.apache.hbase#hbase-annotations;1.1.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.hive#hive-exec;2.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]} in compile[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-annotations;1.1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16d98339[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7443f23a[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-annotations;1.1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@16d98339[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@7443f23a[0m
 [0m[[0mdebug[0m] [0m		tried /home/khariri/.ivy2/local/org.apache.hbase/hbase-annotations/1.1.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.hbase#hbase-annotations;1.1.1[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hbase/hbase-annotations/1.1.1/hbase-annotations-1.1.1.pom[0m
@@ -3328,7 +3328,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-annotations/1.1.1/hbase-annotations-1.1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-annotations/1.1.1/hbase-annotations-1.1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hbase/hbase-annotations/1.1.1/hbase-annotations-1.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-annotations;1.1.1!hbase-annotations.pom(pom.original) (16ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-annotations;1.1.1!hbase-annotations.pom(pom.original) (19ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hbase#hbase;1.1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hbase#hbase;1.1.1[0m
@@ -3379,7 +3379,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.1.1/hbase-protocol-1.1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.1.1/hbase-protocol-1.1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.1.1/hbase-protocol-1.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-protocol;1.1.1!hbase-protocol.pom(pom.original) (26ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hbase#hbase-protocol;1.1.1!hbase-protocol.pom(pom.original) (31ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase;1.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hbase#hbase;1.1.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hbase#hbase;1.1.1[0m
@@ -4287,6 +4287,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.martincooper#scala-datatable_2.11;0.7.0->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.martincooper#scala-datatable_2.11;0.7.0->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.github.martincooper#scala-datatable_2.11;0.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.madhukaraphatak#java-sizeof_2.11;0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.madhukaraphatak#java-sizeof_2.11;0.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.madhukaraphatak#java-sizeof_2.11;0.1[0m
+[0m[[0mdebug[0m] [0m	found com.madhukaraphatak#java-sizeof_2.11;0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for org.khariri#scala-play-basic_2.11;1.0 [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for org.khariri#scala-play-basic_2.11;1.0 [compile][0m
@@ -7684,6 +7699,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.martincooper#scala-datatable_2.11;0.7.0->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.martincooper#scala-datatable_2.11;0.7.0->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.github.martincooper#scala-datatable_2.11;0.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for org.khariri#scala-play-basic_2.11;1.0 [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for org.khariri#scala-play-basic_2.11;1.0 [runtime][0m
@@ -11064,6 +11090,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.martincooper#scala-datatable_2.11;0.7.0->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.martincooper#scala-datatable_2.11;0.7.0->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.github.martincooper#scala-datatable_2.11;0.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.9 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.11;2.5.9 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.5.9 {test=[default(compile)]}[0m
@@ -14964,6 +15001,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.martincooper#scala-datatable_2.11;0.7.0->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.martincooper#scala-datatable_2.11;0.7.0->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.github.martincooper#scala-datatable_2.11;0.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for org.khariri#scala-play-basic_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for org.khariri#scala-play-basic_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -18346,6 +18394,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.martincooper#scala-datatable_2.11;0.7.0->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.martincooper#scala-datatable_2.11;0.7.0->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.github.martincooper#scala-datatable_2.11;0.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for org.khariri#scala-play-basic_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for org.khariri#scala-play-basic_2.11;1.0 [test-internal][0m
@@ -21728,6 +21787,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.martincooper#scala-datatable_2.11;0.7.0->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.martincooper#scala-datatable_2.11;0.7.0->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.github.martincooper#scala-datatable_2.11;0.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.madhukaraphatak#java-sizeof_2.11;0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.madhukaraphatak#java-sizeof_2.11;0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.9 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.9 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.khariri#scala-play-basic_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.9 [test->compile][0m
@@ -22798,6 +22868,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hive#hive-jdbc;2.0.0!hive-jdbc.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] fastutil#fastutil;5.0.9!fastutil.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.martincooper#scala-datatable_2.11;0.7.0!scala-datatable_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.madhukaraphatak#java-sizeof_2.11;0.1!java-sizeof_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
@@ -23056,7 +23127,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8912ms :: artifacts dl 173ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8196ms :: artifacts dl 154ms[0m
 [0m[[0mdebug[0m] [0m	report for org.khariri#scala-play-basic_2.11;1.0 compile produced in /opt/git/scala-play-basic/target/resolution-cache/reports/org.khariri-scala-play-basic_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for org.khariri#scala-play-basic_2.11;1.0 runtime produced in /opt/git/scala-play-basic/target/resolution-cache/reports/org.khariri-scala-play-basic_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for org.khariri#scala-play-basic_2.11;1.0 test produced in /opt/git/scala-play-basic/target/resolution-cache/reports/org.khariri-scala-play-basic_2.11-test.xml[0m
@@ -23070,5 +23141,5 @@
 [0m[[0mdebug[0m] [0m	report for org.khariri#scala-play-basic_2.11;1.0 docs produced in /opt/git/scala-play-basic/target/resolution-cache/reports/org.khariri-scala-play-basic_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for org.khariri#scala-play-basic_2.11;1.0 pom produced in /opt/git/scala-play-basic/target/resolution-cache/reports/org.khariri-scala-play-basic_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for org.khariri#scala-play-basic_2.11;1.0 scala-tool produced in /opt/git/scala-play-basic/target/resolution-cache/reports/org.khariri-scala-play-basic_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (8912ms resolve - 173ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (8196ms resolve - 154ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

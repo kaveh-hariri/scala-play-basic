@@ -4,7 +4,7 @@
 		module="scala-play-basic_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20180928035951"
+		publication="20181003001745"
 	>
 		<description>
 		scala-play-basic
@@ -47,5 +47,6 @@
 		<dependency org="org.apache.hive" name="hive-jdbc" rev="2.0.0" conf="compile->default(compile)"/>
 		<dependency org="fastutil" name="fastutil" rev="5.0.9" conf="compile->default(compile)"/>
 		<dependency org="com.github.martincooper" name="scala-datatable_2.11" rev="0.7.0" conf="compile->default(compile)"/>
+		<dependency org="com.madhukaraphatak" name="java-sizeof_2.11" rev="0.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
